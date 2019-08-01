@@ -11,7 +11,11 @@
 
 	<url>https://github.com/yellow013/ib-gateway.git</url>
 
-	<packaging>jar</packaging>
+	<modules>
+		<module>tws-api</module>
+	</modules>
+
+	<packaging>pom</packaging>
 	<name>ib-gateway</name>
 
 	<properties>
@@ -41,5 +45,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 
 </project>
